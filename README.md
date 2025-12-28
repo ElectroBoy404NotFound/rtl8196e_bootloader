@@ -26,7 +26,7 @@ cd rtl8196e_stage1_bootloader
 make
 ```
 
-###### NOTE: The above steps will be automatically be done by another piece of code which would compile itself and then apend itself
+###### NOTE: The above steps will be automatically be done by another piece of code which would compile itself and then append itself
 
 ## Known issues
 1. The Copy Loop copies an invalid instruction to 0x80100000 and then copies the code after that. So the jump MUST be to 0x80100004
